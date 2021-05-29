@@ -19,8 +19,7 @@ public class DataTypes {
 		namaDepan = scanner.nextLine();
 		System.out.print("Input Nama Tengah : ");
 		namaTengah = scanner.nextLine();
-		System.out.print("Input Nama Belakang : ");
-		namaBelakang = scanner.nextLine();
+		namaBelakang = JOptionPane.showInputDialog("Nama Belakang : ");
 		System.out.print("Input Usia : ");
 		usia = scanner.nextInt();
 		System.out.print("Input IPK : ");
