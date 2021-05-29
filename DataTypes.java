@@ -9,5 +9,15 @@ public class DataTypes {
 		double ipk = 3.89764512;
 		char nilaiAbjad = 'A';
 		boolean statusAktif = true;
+		
+		System.out.println("Nama depan : " + namaDepan);
+		System.out.println("Nama tengah : " + namaTengah);		
+		System.out.println("Nama belakang : " + namaBelakang);
+		System.out.println("Usia : " + usia);
+		System.out.println("Target kuliah : " + targetKuliah + " tahun");
+		System.out.println("IPK : " + ipk);
+		System.out.println("Nama PBO : " + nilaiAbjad);
+		System.out.println("Status kuliah aktif : " + statusAktif);
+
 	}
 }
